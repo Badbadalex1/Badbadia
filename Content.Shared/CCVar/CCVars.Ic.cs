@@ -14,13 +14,13 @@ public sealed partial class CCVars
     ///     Sets the maximum IC name length.
     /// </summary>
     public static readonly CVarDef<int> MaxNameLength =
-        CVarDef.Create("ic.name_length", 32, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("ic.name_length", 128, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     ///     Sets the maximum name length for a loadout name (e.g. cyborg name).
     /// </summary>
     public static readonly CVarDef<int> MaxLoadoutNameLength =
-        CVarDef.Create("ic.loadout_name_length", 32, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("ic.loadout_name_length", 128, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     ///     Allows flavor text (character descriptions).
@@ -32,7 +32,7 @@ public sealed partial class CCVars
     ///     Sets the maximum length for flavor text (character descriptions).
     /// </summary>
     public static readonly CVarDef<int> MaxFlavorTextLength =
-        CVarDef.Create("ic.flavor_text_length", 1024, CVar.SERVER | CVar.REPLICATED); // Floof
+        CVarDef.Create("ic.flavor_text_length", 69420, CVar.SERVER | CVar.REPLICATED); // Floof
 
     /// <summary>
     ///     Sets the maximum character length of a job on an ID.
