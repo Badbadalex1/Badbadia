@@ -113,7 +113,7 @@ public sealed partial class CCVars
     /// If role loadout items should be restricted based on time.
     /// </summary>
     public static readonly CVarDef<bool>
-        GameRoleLoadoutTimers = CVarDef.Create("game.role_loadout_timers", flase, CVar.SERVER | CVar.REPLICATED);
+        GameRoleLoadoutTimers = CVarDef.Create("game.role_loadout_timers", false, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     ///     Override default role requirements using a <see cref="JobRequirementOverridePrototype"/>
