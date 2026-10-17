@@ -144,14 +144,14 @@ public sealed partial class DCCVars
     /// Maximum number of traits that can be selected globally.
     /// </summary>
     public static readonly CVarDef<int> MaxTraitCount =
-        CVarDef.Create("traits.max_count", 25, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("traits.max_count", 6940, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     /// Maximum trait points available to spend.
     /// Traits with positive cost consume points, negative cost traits grant points.
     /// </summary>
     public static readonly CVarDef<int> MaxTraitPoints =
-        CVarDef.Create("traits.max_points", 15, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("traits.max_points", 69420, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     /// Whether to skip showing the disabled traits popup when spawning.

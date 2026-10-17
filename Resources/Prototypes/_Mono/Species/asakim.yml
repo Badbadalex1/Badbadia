@@ -5,7 +5,7 @@
 - type: species
   id: Asakim
   name: species-name-asakim
-  roundStart: false # sad...
+  roundStart: true # sad...
   prototype: MobAsakim
   dollPrototype: AppearanceAsakim
   skinColoration: Hues
