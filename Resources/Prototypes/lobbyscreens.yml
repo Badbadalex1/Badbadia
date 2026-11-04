@@ -7,10 +7,6 @@
   background: /Textures/LobbyScreens/TestsTheConnections.png
 
 - type: lobbyBackground
-  id: PrimaLuceV
-  background: /Textures/LobbyScreens/BigPrima.png
-
-- type: lobbyBackground
   id: Kanawha
   background: /Textures/LobbyScreens/Kanawha.png
 
